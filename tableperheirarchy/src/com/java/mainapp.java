@@ -5,6 +5,7 @@ import org.hibernate.cfg.*;
   
 public class mainapp {  
 public static void main(String[] args) {  
+	System.out.println("welcome");
     Session session=new Configuration().configure("hibernate.cfg.xml")  
                         .buildSessionFactory().openSession();  
   
